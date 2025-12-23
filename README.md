@@ -1,7 +1,9 @@
 # RAG-System
 📄 Retrieval-Augmented Question Answering (RAG) Pipeline
+
 A lightweight Retrieval-Augmented Generation (RAG) system that enables question answering over custom knowledge using semantic search + generative AI.
 This project demonstrates how to ingest raw text, chunk it intelligently, embed it locally, retrieve relevant context using vector similarity, and generate grounded answers using an instruction-tuned language model.
+
 🚀 Overview
 Traditional language models can hallucinate or lack domain-specific knowledge.
 This project solves that by:
@@ -9,6 +11,7 @@ This project solves that by:
   -Retrieving only the most relevant content
   -Generating answers strictly grounded in retrieved context
   -The result is a hallucination-resistant, explainable QA system that runs fully on local or CPU-only environments.
+	
 🧠 Architecture
 Text File (Knowledge Base)
         ↓
